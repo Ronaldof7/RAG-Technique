@@ -4,12 +4,10 @@ This repository contains implementations of various Retrieval-Augmented Generati
 
 ## Folder Structure
 RAG_Technique/
-│
-├─ .ipynb_checkpoints/ # Jupyter notebook checkpoints
-├─ data/ # Dataset files
-├─ myenv/ # Python virtual environment
-├─ vector_stores/ # Precomputed vector stores for retrieval
-│
+├─ .ipynb_checkpoints/        # Jupyter notebook checkpoints
+├─ data/                      # Dataset files
+├─ myenv/                     # Python virtual environment
+├─ vector_stores/             # Precomputed vector stores for retrieval
 ├─ adaptive_retrieval.ipynb
 ├─ fusion_retrieval.ipynb
 ├─ graph_rag.ipynb
@@ -17,9 +15,9 @@ RAG_Technique/
 ├─ raptor_implementation.ipynb
 ├─ reranking.ipynb
 ├─ self_rag.ipynb
-│
-├─ Readme.md # Project Readme
-└─ requirements.txt # Python dependencies
+├─ Readme.md                  # Project Readme
+└─ requirements.txt           # Python dependencies
+
 
 ## Setup
 1. python3 -m venv myenv
